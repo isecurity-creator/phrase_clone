@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>言葉増殖装置</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">言葉増殖装置</h1>
+    </header>
+    <main>
+        <p>レスポンシブ対応させてる暇がないので、とりあえずはスマホで使ってください。
+            <br>ゆくゆくはPCにでも見やすいようにします。</p>
+        <label for="phrase">増殖させたい言葉を入力：</label>
+        <input type="text" id="phrase">
+        <br><br>
+        <label for="times">増殖させる回数を入力：</label>
+        <input type="number" id="times">
+        <br><br>
+        <div id="center_area">
+            <button type="button" id="start">増殖させる</button>
+            <br><br>
+            <textarea id="output_area" placeholder="ここに出力されます。"></textarea>
+            <br><br>
+            <button type="button" id="clipboard_copy">クリップボードにコピーする</button>
+        </div>
+    </main>
+    <footer>
+        <p id="footer_txt">All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

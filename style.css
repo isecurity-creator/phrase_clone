@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ZenMaruGothic;
+    src: url("https://isecurity-creator.github.io/2024SportsFes/font/ZenMaruGothic-Regular.woff") format('woff');
+}
+
+body{
+    margin: 0;
+    font-family: 'ZenMaruGothic';
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    height: 10vh;
+    text-align: center;
+}
+main{}
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    background: black;
+    color: white;
+    width: 100vw;
+}
+
+#title{
+    margin: auto;
+    font-size: 6vh;
+}
+
+#center_area{
+    text-align: center;
+}
+
+#output_area{
+    width: 90vw;
+    height: 30vh;
+}
+
+#footer_txt{
+    margin: 5px;
+}
