@@ -19,8 +19,9 @@ header{
 main{
 }
 footer{
+    position:fixed;
+    bottom: 0;
     margin: auto;
-    padding: 5px;
     background: black;
     color: white;
     width: 100vw;
